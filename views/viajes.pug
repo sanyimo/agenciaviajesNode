@@ -1,0 +1,8 @@
+extends ./layout/index
+
+block contenido
+    h1(class="mt-5 text-center") #{pagina}
+    main.container.mt-5
+        //-con esto ves q conecta bien el contenido de BD o no: p= JSON.stringify(viajes)
+        include ./layout/bloque_viajes
+        
