@@ -2,7 +2,9 @@ import express from 'express';
 import db from './config/db.js';
 import router from './routes/index.js';
 
+
 const app = express();//antes de imports
+
 
 // Conectar la base de datos
 db.authenticate()
